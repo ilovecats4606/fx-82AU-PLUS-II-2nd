@@ -1,6 +1,5 @@
 # token table table for fx82au plus ii 2nd
 ## Manually made from realcalc
-## The Token List for CASIO fx-570/991ES PLUS
 
 | Value | Token                           | Char            |
 | ----- | ------------------------------- | --------------- |
@@ -18,15 +17,15 @@
 | `0Bh` | re                              |                 |
 | `0Ch` | 𝜆c                              |                 |
 | `0Dh` | γᴘ                              |                 |
-| `0Eh` | cs14                            |                 |
-| `0Fh` | cs15                            |                 |
-| `10h` | cs15+1                          |                 |
-| `11h` | cs15+2                          |                 |
-| `12h` | cs15+3                          |                 |
-| `13h` | cs15+4                          |                 |
-| `14h` | cs15+5                          |                 |
-| `15h` | cs15+6                          |                 |
-| `16h` | cs15+7                          |                 |
+| `0Eh` | γcp                             |                 |
+| `0Fh` | 𝜆cn                             |                 |
+| `10h` | Σx²                             |                 |
+| `11h` | Σx                              |                 |
+| `12h` | n                               |                 |
+| `13h` | Σy²                             |                 |
+| `14h` | Σy                              |                 |
+| `15h` | Σxy                             |                 |
+| `16h` | Σy³                             |                 |
 | `17h` | cs15+8                          |                 |
 | `18h` | cs15+9                          |                 |
 | `19h` | cs15+10                         |                 |
