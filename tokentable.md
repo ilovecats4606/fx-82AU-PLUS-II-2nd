@@ -1,6 +1,9 @@
 # token table table for fx82au plus ii 2nd
 ## Manually made from realcalc
-### please note that emurom tokens differ from realrom tokens slightlyr
+### please note that emurom tokens differ from realrom tokens slightly
+
+> [!NOTE]
+> At this point in time I am unable to find a reliable way to type the null char `00h`. If you overflow from the top, you will see it (it looks like 2 blank digits) but trying to move it out of the unstable byte will not work, it will just disappear.
 
 | Value | Token                           | Char            |
 | ----- | ------------------------------- | --------------- |
@@ -215,48 +218,48 @@
 | `D0h` | P(                              |                 |
 | `D1h` | Q(                              |                 |
 | `D2h` | R(                              |                 |
-| `D3h` | ▶t                              |                 |
+| `D3h` | ▶t                             |                 |
 | `D4h` | t                               |                 |
 | `D5h` | G                               |                 |
 | `D6h` | atm                             |                 |
-| `D7h` | cv01                            |                 |
-| `D8h` | cv02                            |                 |
-| `D9h` | cv03                            |                 |
-| `DAh` | cv04                            |                 |
-| `DBh` | cv05                            |                 |
-| `DCh` | cv06                            |                 |
-| `DDh` | cv07                            |                 |
-| `DEh` | cv08                            |                 |
-| `DFh` | cv09                            |                 |
-| `E0h` | cv10                            |                 |
-| `E1h` | cv11                            |                 |
-| `E2h` | cv12                            |                 |
-| `E3h` | cv13                            |                 |
-| `E4h` | cv14                            |                 |
-| `E5h` | cv15                            |                 |
-| `E6h` | cv16                            |                 |
-| `E7h` | cv17                            |                 |
-| `E8h` | cv18                            |                 |
-| `E9h` | cv19                            |                 |
-| `EAh` | cv20                            |                 |
-| `EBh` | cv21                            |                 |
-| `ECh` | cv22                            |                 |
-| `EDh` | cv23                            |                 |
-| `EEh` | cv24                            |                 |
-| `EFh` | cv25                            |                 |
-| `F0h` | cv26                            |                 |
-| `F1h` | cv27                            |                 |
-| `F2h` | cv28                            |                 |
-| `F3h` | cv29                            |                 |
-| `F4h` | cv30                            |                 |
-| `F5h` | cv31                            |                 |
-| `F6h` | cv32                            |                 |
-| `F7h` | cv33                            |                 |
-| `F8h` | cv34                            |                 |
-| `F9h` | cv35                            |                 |
-| `FAh` | cv36                            |                 |
-| `FBh` | cv37                            |                 |
-| `FCh` | cv38                            |                 |
-| `FDh` | cv39                            |                 |
-| `FEh` | cv40                            |                 |
-| `FFh` | cv40+1                          |                 |
+| `D7h` | in▶cm                          |                 |
+| `D8h` | cm▶in                          |                 |
+| `D9h` | ft▶m                           |                 |
+| `DAh` | m▶ft                           |                 |
+| `DBh` | yd▶m                           |                 |
+| `DCh` | m▶yd                           |                 |
+| `DDh` | mile▶km                        |                 |
+| `DEh` | km▶mile                        |                 |
+| `DFh` | n mile▶m                       |                 |
+| `E0h` | m▶n mile                       |                 |
+| `E1h` | acre▶m²                        |                 |
+| `E2h` | m²▶acre                        |                 |
+| `E3h` | gal(US)▶ℓ                      |                 |
+| `E4h` | ℓ▶gal(US)                      |                 |
+| `E5h` | gal(UK)▶ℓ                      |                 |
+| `E6h` | ℓ▶gal(UK)                      |                 |
+| `E7h` | pc▶km                          |                 |
+| `E8h` | km▶pc                          |                 |
+| `E9h` | km/h▶m/s                       |                 |
+| `EAh` | m/s▶km/h                       |                 |
+| `EBh` | oz▶g                           |                 |
+| `ECh` | g▶oz                           |                 |
+| `EDh` | lb▶kg                          |                 |
+| `EEh` | kg▶lb                          |                 |
+| `EFh` | atm▶Pa                         |                 |
+| `F0h` | Pa▶atm                         |                 |
+| `F1h` | mmHg▶Pa                        |                 |
+| `F2h` | Pa▶mmHg                        |                 |
+| `F3h` | hp▶kW                          |                 |
+| `F4h` | kW▶hp                          |                 |
+| `F5h` | kgf/cm²▶Pa                     |                 |
+| `F6h` | Pa▶kgf/cm²                     |                 |
+| `F7h` | kgf⋅m▶J                         |                 |
+| `F8h` | J▶kgf⋅m                         |                 |
+| `F9h` | lbf/in²▶kPa                    |                 |
+| `FAh` | kPa▶lbf/in²                    |                 |
+| `FBh` | °F▶°C                          |                 |
+| `FCh` | °C▶°F                          |                 |
+| `FDh` | J▶cal                          |                 |
+| `FEh` | cal▶J                          |                 |
+| `FFh` | @                               |                 |
